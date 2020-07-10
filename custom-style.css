@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Niconne|Poppins:300,400,500,600,700,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-width {
+  max-width: 1170px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-content {
+  display: flex;
+  /* flex: 1; */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+  color: white;
+  background: #d59a57;
+}
+
+.contact-content label {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.contact-content label::after {
+  content: "*";
+}
+
+.contact-content input {
+  padding: 0.5rem 0.4rem;
+  font-size: 80%;
+  border-style: none;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.contact-content textarea {
+  display: block;
+  padding: 1rem;
+  border: none;
+}
+
+
+@media(max-width:375px) {
+  .contact-width {
+    max-width: 375px;
+  }
+
+
+}
+
+#about {
+  padding: 2rem 15rem;
+  margin: 2rem 0;
+  background: #f7f7f7;
+}
+
+#about h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  #about {
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+  }
+}
+
+
+.contact-width address {
+  color: white;
+}
+
+.address {
+  text-align: center;
+  background: #d59a57;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
